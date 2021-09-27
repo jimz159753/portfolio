@@ -1,0 +1,20 @@
+.technologies-container {
+  padding: 5% 10%;
+  background-color: #191919;
+
+  p {
+    text-align: center;
+    color: #717173;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+
+  .techs {
+    display: flex;
+    justify-content: space-between;
+    img {
+      height: 150px;
+    }
+  }
+}

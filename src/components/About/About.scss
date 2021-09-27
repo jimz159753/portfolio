@@ -1,0 +1,26 @@
+.about-container {
+  padding: 5% 10%;
+  background-color: #191919;
+
+  h1 {
+    font-size: 60px;
+    color: #ffff;
+    font-weight: 700;
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-around;
+
+    p {
+      width: 35%;
+      color: #717173;
+      font-size: 25px;
+      font-weight: 400;
+    }
+  }
+
+  img {
+    height: 400px;
+  }
+}

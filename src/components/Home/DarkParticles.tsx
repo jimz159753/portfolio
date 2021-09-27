@@ -9,7 +9,7 @@ const DarkParticles = () => {
       options={{
         background: {
           color: {
-            value: "#090b10",
+            value: "#000000",
           },
         },
         fpsLimit: 60,

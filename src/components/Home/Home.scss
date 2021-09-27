@@ -1,4 +1,44 @@
-.container {
+.home-container {
   .tsparticles {
+    height: 900px;
+  }
+
+  .ant-tabs {
+    color: #ffff;
+    margin: 20px 0;
+
+    .ant-tabs-tab-btn {
+      font-size: 18px;
+    }
+
+    .ant-tabs-nav::before {
+      border-bottom: none;
+    }
+
+    .ant-tabs-ink-bar {
+      color: #008bff;
+    }
+  }
+
+  .main {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .title {
+      h2 {
+        color: #717173;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        color: #ffff;
+        font-size: 55px;
+        font-weight: 700;
+      }
+    }
   }
 }
