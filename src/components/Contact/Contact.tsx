@@ -2,6 +2,8 @@ import React from "react";
 import "./Contact.scss";
 import { Form, Input, Button, Row, Col } from "antd";
 
+const { TextArea } = Input;
+
 const Contact = () => {
   return (
     <div id="contact" className="contact-container">
@@ -50,15 +52,15 @@ const Contact = () => {
                   { required: true, message: "Please input your username!" },
                 ]}
               >
-                <Input placeholder="Your Message" />
+                <TextArea placeholder="Your Message" />
               </Form.Item>
             </Col>
           </Row>
           <Row justify="center">
-            <Col>
+            <Col span={12}>
               <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
                 <Button type="primary" htmlType="submit">
-                  Submit
+                  SUBMIT
                 </Button>
               </Form.Item>
             </Col>

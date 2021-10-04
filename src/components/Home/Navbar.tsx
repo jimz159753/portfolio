@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { Menu } from "antd";
+import { Menu, Image } from "antd";
+import facebook from "../../assets/images/facebook.png";
+import insta from "../../assets/images/insta.png";
+import github from "../../assets/images/facebook.png";
+import linkedin from "../../assets/images/linkedin.png";
 
 const { SubMenu } = Menu;
 
@@ -22,6 +26,18 @@ const Navbar = () => {
       </Menu.Item>
       <Menu.Item key="contact">
         <a href="#contact">Contact me</a>
+      </Menu.Item>
+      <Menu.Item key="facebook">
+        <Image src={facebook} preview={false} />
+      </Menu.Item>
+      <Menu.Item key="contact">
+        <Image src={linkedin} preview={false} />
+      </Menu.Item>
+      <Menu.Item key="contact">
+        <Image src={insta} preview={false} />
+      </Menu.Item>
+      <Menu.Item key="contact">
+        <Image src={github} preview={false} />
       </Menu.Item>
     </Menu>
   );

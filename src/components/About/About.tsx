@@ -40,7 +40,6 @@ const About = () => {
           </div>
         </TabPane>
         <TabPane tab="Education & Certifications" key="2">
-          <b>Engineer information technologies at U de G.</b>
           <div className="courses">
             <p>
               <b>Udemy courses:</b>
