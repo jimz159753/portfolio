@@ -12,7 +12,7 @@ import graphql from "../../assets/images/graphql.png";
 
 const Technologies = () => {
   return (
-    <div className="technologies-container">
+    <div id="techs" className="technologies-container">
       <p>Technologies I've used so far</p>
       <div className="techs">
         <Image src={react} preview={false} />

@@ -8,6 +8,7 @@
     font-size: 60px;
     color: #ffff;
     font-weight: 700;
+    font-family: "Poppins-Black";
   }
 
   p {
@@ -16,12 +17,14 @@
     font-size: 21px;
     line-height: 30px;
     font-weight: 400;
+    font-family: "Poppins-Medium";
   }
 
   img {
-    height: 250px;
-    width: 450px;
-    border-radius: 8px;
-    margin: 10px;
+    height: 300px;
+  }
+
+  img:hover {
+    opacity: 0.5;
   }
 }

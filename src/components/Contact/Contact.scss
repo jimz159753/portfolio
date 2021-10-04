@@ -2,9 +2,22 @@
   padding: 5% 10%;
   background-color: #101010;
 
-  h1 {
-    font-size: 60px;
-    color: #ffff;
-    font-weight: 700;
+  .wrapper {
+    width: 60%;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 60px;
+      color: #ffff;
+      font-weight: 700;
+      font-family: "Poppins-Black";
+    }
+
+    .form {
+      input {
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        background: transparent;
+      }
+    }
   }
 }

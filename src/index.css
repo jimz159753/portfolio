@@ -1,13 +1,41 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Poppins/Light";
+  src: local("Poppins/Light"),
+    url(./assets/fonts/Poppins-Light.ttf) format("truetype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Poppins-Medium";
+  src: local("Poppins-Medium"),
+    url(./assets/fonts/Poppins-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular"),
+    url(./assets/fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Black";
+  src: local("Poppins-Black"),
+    url(./assets/fonts/Poppins-Black.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand-Light";
+  src: local("Quicksand-Light"),
+    url(./assets/fonts/Quicksand-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: local("Quicksand-Medium"),
+    url(./assets/fonts/Quicksand-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: local("Quicksand-Regular"),
+    url(./assets/fonts/Quicksand-Regular.ttf) format("truetype");
 }
