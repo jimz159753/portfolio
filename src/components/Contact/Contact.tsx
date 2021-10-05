@@ -9,49 +9,30 @@ const Contact = () => {
     <div id="contact" className="contact-container">
       <div className="wrapper">
         <h1>Contact me</h1>
+        <p>I am available for full time, part time and freelance work.</p>
         <Form name="basic" className="form">
           <Row gutter={[32, 8]} align="middle" justify="center">
             <Col span={12}>
-              <Form.Item
-                name="username"
-                rules={[
-                  { required: true, message: "Please input your username!" },
-                ]}
-              >
+              <Form.Item name="username">
                 <Input placeholder="Your name*" />
               </Form.Item>
             </Col>
             <Col span={12}>
-              <Form.Item
-                name="username"
-                rules={[
-                  { required: true, message: "Please input your username!" },
-                ]}
-              >
+              <Form.Item name="username">
                 <Input placeholder="Your email*" />
               </Form.Item>
             </Col>
           </Row>
           <Row>
             <Col span={24}>
-              <Form.Item
-                name="username"
-                rules={[
-                  { required: true, message: "Please input your username!" },
-                ]}
-              >
+              <Form.Item name="username">
                 <Input placeholder="Write a Subject" />
               </Form.Item>
             </Col>
           </Row>
           <Row>
             <Col span={24}>
-              <Form.Item
-                name="username"
-                rules={[
-                  { required: true, message: "Please input your username!" },
-                ]}
-              >
+              <Form.Item name="username">
                 <TextArea placeholder="Your Message" />
               </Form.Item>
             </Col>

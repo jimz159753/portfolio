@@ -3,7 +3,7 @@ import DarkParticles from "./DarkParticles";
 import "./Home.scss";
 import About from "../About";
 import Projects from "../Projects";
-import Technologies from "../Technologies";
+import Technologies from "../Companies";
 import Navbar from "./Navbar";
 import Contact from "../Contact";
 import Footer from "../Footer";

@@ -21,8 +21,8 @@ const Navbar = () => {
       <Menu.Item key="projects">
         <a href="#projects">My latest projects</a>
       </Menu.Item>
-      <Menu.Item key="techs">
-        <a href="#techs">Technologies</a>
+      <Menu.Item key="companies">
+        <a href="#companies">Companies</a>
       </Menu.Item>
       <Menu.Item key="contact">
         <a href="#contact">Contact me</a>

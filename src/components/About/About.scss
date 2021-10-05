@@ -1,7 +1,6 @@
 .about-container {
   padding: 5% 10%;
   background-color: #191919;
-  height: 900px;
 
   h1 {
     font-size: 60px;
@@ -16,6 +15,7 @@
     align-items: center;
     justify-content: center;
     margin: 60px 0;
+    flex-flow: row wrap;
 
     p {
       color: #717173;
