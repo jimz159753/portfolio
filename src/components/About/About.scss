@@ -63,4 +63,32 @@
   img {
     height: 300px;
   }
+
+  @media (max-width: 770px) {
+    h1 {
+      font-size: 35px;
+      text-align: center;
+    }
+
+    img {
+      height: 200px;
+      margin-bottom: 50px;
+    }
+
+    .ant-tabs {
+      .ant-tabs-tab-btn {
+        font-size: 14px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    .description {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
 }
