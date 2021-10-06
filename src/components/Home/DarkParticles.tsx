@@ -7,69 +7,80 @@ const DarkParticles = () => {
       id="tsparticles"
       className="tsparticles"
       options={{
-        background: {
-          color: {
-            value: "#000000",
-          },
-        },
         fpsLimit: 60,
+        fullScreen: {
+          enable: true,
+        },
+        background: {
+          color: "#000000",
+        },
         interactivity: {
+          detect_on: "canvas",
           events: {
-            onhover: {
-              enable: true,
-              mode: "bubble",
-            },
-            onclick: {
-              enable: true,
-              mode: "repulse",
-            },
+            onClick: { enable: true, mode: "repulse" },
+            resize: true,
           },
           modes: {
             bubble: {
-              distance: 250,
-              duration: 2,
-              size: 0,
-              opacity: 0,
-            },
-            repulse: {
               distance: 400,
-              duration: 4,
+              duration: 2,
+              opacity: 0.8,
+              size: 40,
             },
+            grab: { distance: 400, links: { opacity: 1 } },
+            push: { quantity: 4 },
+            remove: { quantity: 2 },
+            repulse: { distance: 200, duration: 0.4 },
           },
         },
         particles: {
-          color: {
-            value: "#ffffff",
-          },
-          collisions: {
-            enable: true,
-          },
           move: {
-            direction: "top",
+            bounce: false,
+            direction: "none",
             enable: true,
-            outMode: "out",
-            random: true,
-            speed: 0.5,
+            out_mode: "out",
+            random: false,
+            speed: 2,
+            straight: false,
           },
-          number: {
-            value: 170,
-            density: {
-              enable: false,
+          rotate: {
+            animation: {
+              enable: true,
+              speed: 10,
+              sync: false,
             },
+          },
+          number: { density: { enable: true, area: 800 }, value: 100 },
+          opacity: {
+            animation: {
+              enable: true,
+              minimumValue: 0.5,
+              speed: 1,
+              sync: false,
+            },
+            random: false,
+            value: 1,
+          },
+          shape: {
+            character: [
+              {
+                fill: true,
+                font: "Verdana",
+                value: ["1", "0"],
+                style: "",
+                weight: "400",
+              },
+            ],
+            polygon: { nb_sides: 5 },
+            stroke: { color: "random", width: 1 },
+            type: "char",
           },
           size: {
-            random: true,
-            value: 2,
-            anim: {
-              speed: 4,
-              size_min: 0.3,
-            },
-          },
-          line_linked: {
-            enable: false,
+            anim: { enable: true, minimumValue: 8, speed: 20, sync: false },
+            random: { minimumValue: 8, enable: true },
+            value: 20,
           },
         },
-        detectRetina: true,
       }}
     />
   );
