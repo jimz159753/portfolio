@@ -29,6 +29,8 @@
         background: transparent;
         height: 50px;
         border-radius: 5px;
+        color: #ffffff;
+        font-family: "Quicksand-Light";
 
         &::placeholder {
           color: rgba(255, 255, 255, 0.2);
@@ -48,6 +50,7 @@
         background: transparent;
         border-radius: 4px;
         width: 105px;
+        margin: 0 auto;
 
         &:hover {
           border: 2px solid #008bff;
@@ -68,6 +71,18 @@
 
       p {
         font-size: 16px;
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    .wrapper {
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 14px;
       }
     }
   }

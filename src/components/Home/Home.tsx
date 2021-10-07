@@ -4,7 +4,6 @@ import "./Home.scss";
 import About from "../About";
 import Projects from "../Projects";
 import Technologies from "../Companies";
-import Navbar from "./Navbar";
 import Contact from "../Contact";
 import Footer from "../Footer";
 import TextTransition, { presets } from "react-text-transition";
@@ -24,7 +23,6 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <Navbar />
       <DarkParticles />
       <div className="main">
         <div className="title">

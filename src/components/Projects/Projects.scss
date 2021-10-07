@@ -51,4 +51,14 @@
       font-size: 16px;
     }
   }
+
+  @media (max-width: 450px) {
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
 }
