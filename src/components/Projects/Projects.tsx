@@ -2,6 +2,7 @@ import React from 'react';
 import { Image } from 'antd';
 import './Projects.scss';
 import inicont from '../../assets/images/inicont.png';
+import medical_record from '../../assets/images/medical_record.png';
 
 const Projects = () => (
   <div id="projects" className="projects-container">
@@ -12,21 +13,19 @@ const Projects = () => (
         data-aos="zoom-in-up"
         data-aos-duration="1500"
         src={inicont}
-        preview={false}
+
+      />
+
+      <Image
+        data-aos="zoom-in-up"
+        data-aos-duration="1500"
+        src={medical_record}
       />
 
       <Image
         data-aos="zoom-in-up"
         data-aos-duration="1500"
         src={inicont}
-        preview={false}
-      />
-
-      <Image
-        data-aos="zoom-in-up"
-        data-aos-duration="1500"
-        src={inicont}
-        preview={false}
       />
     </div>
   </div>

@@ -21,7 +21,7 @@ module.exports = {
   ],
   rules: {
     'no-console': 'off',
-    'max-len': ['error', { code: 80 }],
+    'max-len': ['error', { code: 100 }],
     'linebreak-style': 0,
     'no-use-before-define': 0,
     'react/no-unescaped-entities': 0

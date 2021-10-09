@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import DarkParticles from "./DarkParticles";
 import "./Home.scss";
 import About from "../About";
+import Skills from "../Skills";
 import Projects from "../Projects";
 import Technologies from "../Companies";
 import Contact from "../Contact";
@@ -37,6 +38,7 @@ const Home = () => {
         </div>
       </div>
       <About />
+      <Skills />
       <Projects />
       <Technologies />
       <Contact />
