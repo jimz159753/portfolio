@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Row, Col } from "antd";
+import { Image } from "antd";
 import "./Companies.scss";
 import intel from "../../assets/images/intel.png";
 import tata from "../../assets/images/tata.png";

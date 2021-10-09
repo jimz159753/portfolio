@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Poppins/Light";
-  src: local("Poppins/Light"),
+  src: local("Poppins-Light"),
     url(./assets/fonts/Poppins-Light.ttf) format("truetype");
 }
 
