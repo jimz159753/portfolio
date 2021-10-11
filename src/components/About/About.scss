@@ -1,6 +1,7 @@
 .about-container {
   padding: 5% 10%;
   background-color: #191919;
+  border: 1px solid #191919;
 
   h1 {
     font-size: 60px;
@@ -77,19 +78,10 @@
       margin-bottom: 50px;
     }
 
-    .ant-tabs {
-      .ant-tabs-tab-btn {
-        font-size: 14px;
-      }
-
-      p {
-        font-size: 12px;
-      }
-    }
-
     .description {
       p {
         font-size: 16px;
+        width: 100%;
       }
     }
   }
@@ -99,9 +91,15 @@
       font-size: 28px;
     }
 
+    img {
+      height: 200px;
+      margin-bottom: 50px;
+    }
+
     .description {
       p {
         font-size: 14px;
+        width: 100%;
       }
     }
   }

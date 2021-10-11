@@ -1,6 +1,7 @@
 .skills-content {
   padding: 5% 10%;
   background-color: #101010;
+  border: 1px solid #101010;
 
   h1 {
     text-align: center;
@@ -26,6 +27,7 @@
 
       img {
         height: 130px;
+        margin: 60px 0 0 0;
       }
 
       b {
@@ -42,6 +44,26 @@
         font-weight: 400;
         font-family: "Quicksand-Light";
       }
+    }
+  }
+
+  @media (max-width: 770px) {
+    h1 {
+      font-size: 35px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    h1 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 14px;
     }
   }
 }
