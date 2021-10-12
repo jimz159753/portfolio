@@ -3,6 +3,8 @@ import { Image } from 'antd';
 import './Projects.scss';
 import inicont from '../../assets/images/inicont.png';
 import medical_record from '../../assets/images/medical_record.png';
+import bellotero from '../../assets/images/bellotero.png';
+
 
 const ok = [
   {
@@ -12,6 +14,10 @@ const ok = [
   {
     img: medical_record,
     techs: ['ReactJs', 'Flask', 'MongoDB']
+  },
+  {
+    img: bellotero,
+    techs: ['ReactJs', 'Express', 'MongoDB']
   }
 ]
 

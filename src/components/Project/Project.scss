@@ -47,20 +47,8 @@
       flex-direction: column;
 
       img {
-        width: 200px;
-        border-radius: 50%;
+        width: 150px;
         margin-bottom: 30px;
-      }
-
-      .ant-image-mask {
-        .mask {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border: 1px solid #ffff;
-          height: 40px;
-          width: 100px;
-        }
       }
 
       p {

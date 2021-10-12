@@ -1,6 +1,9 @@
 import React from 'react';
 import { Image } from 'antd'
 import './Project.scss';
+import standard from '../../assets/images/standard.png'
+import payable from '../../assets/images/payable.png'
+import exchange from '../../assets/images/exchange.png'
 
 const Project = () => (
   <div className='project-container'>
@@ -30,7 +33,7 @@ const Project = () => (
     <div className='features'>
       <div className='feature'>
         <Image
-          src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+          src={standard}
           preview={false} />
         <p>Anim in labore velit quis mollit pariatur irure exercitation.
           Lorem Lorem incididunt dolore aute. Reprehenderit tempor non esse ipsum ea occaecat
@@ -39,7 +42,7 @@ const Project = () => (
       </div>
       <div className='feature'>
         <Image
-          src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+          src={payable}
           preview={false} />
         <p>Anim in labore velit quis mollit pariatur irure exercitation.
           Lorem Lorem incididunt dolore aute. Reprehenderit tempor non esse ipsum ea occaecat
@@ -48,23 +51,13 @@ const Project = () => (
       </div>
       <div className='feature'>
         <Image
-          src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+          src={exchange}
           preview={false} />
         <p>Anim in labore velit quis mollit pariatur irure exercitation.
           Lorem Lorem incididunt dolore aute. Reprehenderit tempor non esse ipsum ea occaecat
           dolore sunt magna fugiat adipisicing. Aute nulla duis amet ea est nulla dolor ad.
         </p>
       </div>
-      <div className='feature'>
-        <Image
-          src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
-          preview={false} />
-        <p>Anim in labore velit quis mollit pariatur irure exercitation.
-          Lorem Lorem incididunt dolore aute. Reprehenderit tempor non esse ipsum ea occaecat
-          dolore sunt magna fugiat adipisicing. Aute nulla duis amet ea est nulla dolor ad.
-        </p>
-      </div>
-
     </div>
   </div>
 );
