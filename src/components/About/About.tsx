@@ -10,7 +10,7 @@ const About = () => {
       <h1>About me</h1>
       <div className="description">
         <Image src={avatar} preview={false} />
-        <p data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000">
+        <p data-aos="zoom-out-up" data-aos-duration="3000">
           I’m a fullstack developer with 5+ years of experience in the area of
           IT giving solutions to different environments and determining customer
           satisfaction. I've done remote work for agencies and collaborated with

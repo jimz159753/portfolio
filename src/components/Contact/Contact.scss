@@ -63,8 +63,10 @@
     }
   }
 
-  @media (max-width: 770px) {
+  @media (max-width: 768px) {
     .wrapper {
+      width: 90%;
+
       h1 {
         font-size: 35px;
         text-align: center;
@@ -76,8 +78,10 @@
     }
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 480px) {
     .wrapper {
+      width: 90%;
+
       h1 {
         font-size: 28px;
       }
