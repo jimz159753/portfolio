@@ -10,8 +10,8 @@ const About = () => {
       <h1>About me</h1>
       <div className="description">
         <Image src={avatar} preview={false} />
-        <p data-aos="zoom-out-up" data-aos-duration="3000">
-          I’m a fullstack developer with 5+ years of experience in the area of
+        <p data-aos="zoom-out-up" data-aos-duration="1500">
+          I’m a fullstack developer with 6+ years of experience in the area of
           IT giving solutions to different environments and determining customer
           satisfaction. I've done remote work for agencies and collaborated with
           talented people to create digital content for both business and

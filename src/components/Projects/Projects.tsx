@@ -31,7 +31,7 @@ const Projects = () => (
           <Image
             key={i}
             data-aos="zoom-in-up"
-            data-aos-duration="3000"
+            data-aos-duration="1500"
             src={el.img}
             preview={{
               mask: <div className='mask-container'>
