@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f935dfa7.chunk.css",
+    "main.js": "/portfolio/static/js/main.8935497b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8935497b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.18380eaf.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.18380eaf.js.map",
+    "static/css/2.d2ee2df3.chunk.css": "/portfolio/static/css/2.d2ee2df3.chunk.css",
+    "static/js/2.071d3082.chunk.js": "/portfolio/static/js/2.071d3082.chunk.js",
+    "static/js/2.071d3082.chunk.js.map": "/portfolio/static/js/2.071d3082.chunk.js.map",
+    "static/js/3.f06e41b4.chunk.js": "/portfolio/static/js/3.f06e41b4.chunk.js",
+    "static/js/3.f06e41b4.chunk.js.map": "/portfolio/static/js/3.f06e41b4.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.d2ee2df3.chunk.css.map": "/portfolio/static/css/2.d2ee2df3.chunk.css.map",
+    "static/css/main.f935dfa7.chunk.css.map": "/portfolio/static/css/main.f935dfa7.chunk.css.map",
+    "static/js/2.071d3082.chunk.js.LICENSE.txt": "/portfolio/static/js/2.071d3082.chunk.js.LICENSE.txt",
+    "static/media/3pillarglobal.b7c70b75.png": "/portfolio/static/media/3pillarglobal.b7c70b75.png",
+    "static/media/index.css": "/portfolio/static/media/Quicksand-Regular.109d09e5.ttf",
+    "static/media/avatar1.97567ca3.png": "/portfolio/static/media/avatar1.97567ca3.png",
+    "static/media/bellotero.95fbdb4b.png": "/portfolio/static/media/bellotero.95fbdb4b.png",
+    "static/media/design.d6b66608.png": "/portfolio/static/media/design.d6b66608.png",
+    "static/media/improving.5534ef49.png": "/portfolio/static/media/improving.5534ef49.png",
+    "static/media/inicont.47134e57.png": "/portfolio/static/media/inicont.47134e57.png",
+    "static/media/itexico.53d1267a.png": "/portfolio/static/media/itexico.53d1267a.png",
+    "static/media/lenovo.58ede51c.png": "/portfolio/static/media/lenovo.58ede51c.png",
+    "static/media/medical_record.b35e2505.png": "/portfolio/static/media/medical_record.b35e2505.png",
+    "static/media/mobile.d11ae472.png": "/portfolio/static/media/mobile.d11ae472.png",
+    "static/media/tata.1e446ece.png": "/portfolio/static/media/tata.1e446ece.png",
+    "static/media/web.ef567215.png": "/portfolio/static/media/web.ef567215.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18380eaf.js",
+    "static/css/2.d2ee2df3.chunk.css",
+    "static/js/2.071d3082.chunk.js",
+    "static/css/main.f935dfa7.chunk.css",
+    "static/js/main.8935497b.chunk.js"
+  ]
+}
